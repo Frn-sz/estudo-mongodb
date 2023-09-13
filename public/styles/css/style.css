@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+form {
+    padding: 10px;
+}
+
+
+.form-control {
+    padding: 10px;
+}
+
+.form-control input {
+    padding: 5px;
+}

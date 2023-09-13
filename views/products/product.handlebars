@@ -1,0 +1,16 @@
+<div class="product-page">
+  <a href="/products">Voltar</a>
+
+  <h1>{{product.name}}</h1>
+
+  <p>Preço: R$:{{product.price}}</p>
+  <p>{{product.description}}</p>
+
+  <form action="/products/remove/{{product._id}}" method="POST">
+    <button type="submit">Excluir</button>
+  </form>
+
+  <form action="/products/edit/{{product._id}}" method="GET">
+    <button type="submit">Editar</button>
+  </form>
+</div>
